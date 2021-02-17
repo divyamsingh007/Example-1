@@ -35,6 +35,7 @@ function setup(){
     log5 = new Log(870,120,150, -PI/7);
 
     bird = new Bird(100,100);
+    box6 = new Box(100,100,50,50);
 
 }
 
@@ -56,6 +57,7 @@ function draw(){
     log3.display();
 
     box5.display();
+    box6.display();
     log4.display();
     log5.display();
 
